@@ -1,0 +1,11 @@
+dataframe = sdf
+var = resid(lag)
+title = "Lag Model Residuals"
+classes = 5
+ramp = "RdBu"
+
+choropleth_map (dataframe,var,title, classes, ramp=ramp)
+
+sdf$lag.res <- resid(lag) 
+
+moran.test(sdf$lag.res,W)

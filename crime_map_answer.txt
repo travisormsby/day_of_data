@@ -1,0 +1,7 @@
+dataframe = sdf
+var = sdf$CRIME
+title = "Crime Index"
+classes = 5
+ramp = "RdPu"
+
+choropleth_map (dataframe,var,title, classes, ramp=ramp)
