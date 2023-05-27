@@ -5,6 +5,7 @@ Click on the "Launch Binder" link below to open a directory containing these not
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/travisormsby/day_of_data/master)
 
+
 Spatial data violate many of the assumptions of traditional statistical analysis.
 Specifically, spatial data often exhibit:
 
